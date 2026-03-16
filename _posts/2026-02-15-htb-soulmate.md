@@ -3,7 +3,7 @@ title: "HTB: Soulmate"
 # description: ""
 date: "2026-02-15 11:33:00 +0800"
 categories: [hackthebox,linux]
-tags: [crushftp,cve-2025-31161,cve-2025-54309,php-webshell,erlang-ssh,setuid,bash-copy]
+tags: [ffuf,crushftp,cve-2025-31161,cve-2025-54309,php-webshell,erlang-ssh,setuid,bash-copy]
 pin: false
 math: true
 mermaid: true
