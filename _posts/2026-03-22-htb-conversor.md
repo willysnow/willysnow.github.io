@@ -42,7 +42,7 @@ Service Info: Host: conversor.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 use `ffuf` to scan for any subdomains of `conversor.htb`, but no additional subdomains were identified:
 
 ```console
-$ ffuf -u http://10.10.11.92 -H "Host: FUZZ.sconversor.htb.htb" -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-20000.txt -ac
+$ ffuf -u http://10.10.11.92 -H "Host: FUZZ.conversor.htb" -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-20000.txt -ac
 ..snip..
 :: Progress: [19966/19966] :: Job [1/1] :: 498 req/sec :: Duration: [0:00:38] :: Errors: 0 :: 
 ```
